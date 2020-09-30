@@ -11,6 +11,9 @@ gem "decidim-calendar"
 gem "decidim-consultations", "0.22.0"
 gem "decidim-initiatives", "0.22.0"
 
+gem "wicked_pdf"
+gem "wkhtmltopdf-binary"
+
 gem "bootsnap", "~> 1.3"
 
 gem "puma"#, ">= 4.3.5"
