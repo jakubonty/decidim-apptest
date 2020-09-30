@@ -3,7 +3,7 @@
   "description": "decidim_apptest - Direct and participatory democracy web platform based on Decidim framework",
   "keywords": [],
   "addons": [
-    "heroku-postgresql",
+    "heroku-postgresql:hobby-dev",
     "heroku-redis:hobby-dev",
     "logentries:le_tryit",
     "memcachedcloud:30",
