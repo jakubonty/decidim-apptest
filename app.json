@@ -3,16 +3,16 @@
   "description": "decidim_apptest - Direct and participatory democracy web platform based on Decidim framework",
   "keywords": [],
   "addons": [
-    "heroku-postgresql:standard-0",
+    "heroku-postgresql:hobby-dev",
     "heroku-redis:hobby-dev",
     "logentries:le_tryit",
     "memcachedcloud:30",
     "newrelic:wayne",
     "sendgrid:starter"
   ],
-  "scripts": {
-    "postdeploy":"DISABLE_DATABASE_ENVIRONMENT_CHECK=1 SEED=true rake db:schema:load db:migrate db:seed"
-  },
+  // "scripts": {
+  //   "postdeploy":"DISABLE_DATABASE_ENVIRONMENT_CHECK=1 SEED=true rake db:schema:load db:migrate db:seed"
+  // },
   "env": {
     "AWS_ACCESS_KEY_ID": {
       "required": true
