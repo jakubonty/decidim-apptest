@@ -7,6 +7,7 @@ ruby RUBY_VERSION
 gem 'fog-aws'
 gem "decidim", "0.22.0"
 gem 'decidim-admin'
+gem 'decidim-assemblies'
 gem "decidim-calendar"
 gem "decidim-consultations", "0.22.0"
 gem "decidim-initiatives", "0.22.0"
