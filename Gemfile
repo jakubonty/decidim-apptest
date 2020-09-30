@@ -5,7 +5,11 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem 'fog-aws'
-gem "decidim", "0.22.0"
+gem "decidim", "0.19.0"
+gem 'decidim-admin'
+gem "decidim-calendar"
+gem 'decidim-budgets_enhanced', git: 'git://github.com/OpenSourcePolitics/decidim-module-budgets_enhanced.git'
+gem "decidim-combined_budgeting", git: 'git://github.com/mainio/decidim-module-combined_budgeting.git'
 # gem "decidim-consultations", "0.22.0"
 # gem "decidim-initiatives", "0.22.0"
 
@@ -19,7 +23,7 @@ gem "faker", "~> 1.9"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", "0.22.0"
+  gem "decidim-dev"
 end
 
 group :development do
