@@ -10,9 +10,9 @@
     "newrelic:wayne",
     "sendgrid:starter"
   ],
-  // "scripts": {
-  //   "postdeploy": "" //"DISABLE_DATABASE_ENVIRONMENT_CHECK=1 SEED=true rake db:schema:load db:migrate db:seed"
-  // },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:create" //"DISABLE_DATABASE_ENVIRONMENT_CHECK=1 SEED=true rake db:schema:load db:migrate db:seed"
+  },
   "env": {
     "AWS_ACCESS_KEY_ID": {
       "required": true
