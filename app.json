@@ -20,6 +20,15 @@
     "AWS_SECRET_ACCESS_KEY": {
       "required": true
     },
+    "AWS_REGION": {
+      "required": true
+    },
+    "AWS_ENDPOINT": {
+      "required": true
+    },
+    "AWS_BUCKET_NAME": {
+      "required": true
+    },
     "CENSUS_PASSWORD": {
       "description": "Password for a custom CensusAuthenticationHandler, if needed",
       "required": false

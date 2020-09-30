@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
+gem 'fog-aws'
 gem "decidim", "0.22.0"
 # gem "decidim-consultations", "0.22.0"
 # gem "decidim-initiatives", "0.22.0"
@@ -32,7 +33,6 @@ end
 
 group :production do
   gem 'puma'
-  gem 'fog-aws'
   gem 'dalli'
   gem 'sendgrid-ruby'
   gem 'newrelic_rpm'
