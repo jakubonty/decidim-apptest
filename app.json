@@ -11,7 +11,7 @@
     "sendgrid:starter"
   ],
   "scripts": {
-    "postdeploy": "bundle exec rake db:create"
+    "postdeploy":""
   },
   "env": {
     "AWS_ACCESS_KEY_ID": {
