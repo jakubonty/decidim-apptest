@@ -212,3 +212,4 @@ end
 
 Rails.application.config.i18n.available_locales = Decidim.available_locales
 Rails.application.config.i18n.default_locale = Decidim.default_locale
+Rails.application.config.i18n.enforce_available_locales = false
